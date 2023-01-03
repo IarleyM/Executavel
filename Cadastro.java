@@ -1,4 +1,4 @@
-package Aula;
+package Aula.Executavel;
 
 import java.util.*;
 

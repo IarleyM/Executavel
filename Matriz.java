@@ -1,4 +1,4 @@
-package Aula;
+package Aula.Executavel;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class Matriz {
 
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Trabalho em matriz");
 		System.out.println("Informe a quantidade de linhas");
 		int linhas = sc.nextInt();
 		System.out.println("Informe a quantidade de colunas");
