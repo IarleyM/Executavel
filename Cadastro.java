@@ -7,10 +7,16 @@ public class Cadastro {
 	private int id;
 	private String nome;
 	private double salario;
+	private String endereco;
 	
 	@Override
 	public String toString() {
 		return "Funcionario: " + nome +", id=" + id +  ", salario=" + salario;
+	}
+	
+	public Cadastro(int id, String nome) {
+		this.id = id;
+		this.nome = nome;
 	}
 	
 	public Cadastro(int id, String nome, double salario) {
